@@ -1,4 +1,0 @@
-Dummy adapter for job 1
-base_model: sshleifer/tiny-gpt2
-dataset_filename: 61914c4e-f5dc-47a2-b145-6315cc021232_sample.txt
-created_at: Fri Oct 31 21:11:02 2025

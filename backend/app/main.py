@@ -7,6 +7,9 @@ from sqlalchemy.orm import Session
 from uuid import uuid4
 from fastapi.responses import FileResponse
 
+from .lora_infer import generate_text
+from .download import router as download_router
+from .predict import router as predict_router
 from .tasks import enqueue_training_job
 from .models import Dataset, Job
 from .config import settings
@@ -14,13 +17,15 @@ from .db import get_db, Base, engine, SessionLocal
 from . import models, schemas, tasks
 from .models_available import AVAILABLE_MODELS   # ✅ NEW LINE
 
+Base.metadata.create_all(bind=engine)
+
 # ensure directories
 os.makedirs(settings.DATA_DIR, exist_ok=True)
 os.makedirs(settings.MODEL_DIR, exist_ok=True)
 
-Base.metadata.create_all(bind=engine)
-
 app = FastAPI(title=settings.APP_NAME)
+app.include_router(predict_router)
+app.include_router(download_router)
 
 app.add_middleware(
     CORSMiddleware,
@@ -134,3 +139,12 @@ def download_adapter(job_id: int, db: Session = Depends(get_db)):
         raise HTTPException(404, "File missing")
 
     return FileResponse(path, filename=f"adapter_job_{job_id}.zip")
+
+@app.post("/infer")
+def infer(
+    base_model: str = Form(...),
+    adapter_job_id: int = Form(...),
+    prompt: str = Form(...)
+):
+    output = generate_text(base_model, adapter_job_id, prompt)
+    return {"response": output}
