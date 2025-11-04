@@ -64,9 +64,16 @@ def train_on_job(job_id: int, dataset_id: int, base_model: str, epochs: int):
     print(f"[job {job_id}] CUDA: {torch.cuda.is_available()} | Device: {device_label}")
 
     # ------- Load tokenizer -------
-    tokenizer = AutoTokenizer.from_pretrained(base_model)
+    hf_token = os.getenv("HF_TOKEN")
+    token_kwargs = {"use_auth_token": hf_token} if hf_token else {}
+
+    tokenizer = AutoTokenizer.from_pretrained(base_model, **token_kwargs)
+    model = AutoModelForCausalLM.from_pretrained(base_model, **token_kwargs)
+
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
+        model.config.pad_token_id = model.config.eos_token_id
+
 
     # ------- Tokenize dataset -------
     def tokenize(batch):

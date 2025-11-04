@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>✨ Inference — FTaaS</title>
+
+  <!-- Tailwind & Styles -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/config.js"></script>
+  <script defer src="js/inference.js"></script>
+</head>
+
+<body class="bg-black text-purple-200 font-mono h-screen flex">
+
+  <!-- Sidebar -->
+  <aside class="w-60 bg-black/80 border-r border-purple-600 p-6">
+    <h1 class="text-xl font-bold mb-6 neon-text">⚡ FTaaS</h1>
+    <nav class="space-y-3">
+      <a class="nav" href="index.html">🏠 Dashboard</a>
+      <a class="nav" href="upload.html">📂 Upload</a>
+      <a class="nav" href="train.html">🧠 Train</a>
+      <a class="nav" href="jobs.html">📊 Jobs</a>
+      <a class="nav active" href="infer.html">✨ Inference</a>
+      <a class="nav" href="gpu.html">⚙ GPU</a>
+      <a class="nav" href="download.html">⬇ Download</a>
+    </nav>
+  </aside>
+
+  <!-- Main -->
+  <main class="flex-1 p-8 overflow-y-auto">
+    <h2 class="text-3xl font-bold mb-6 neon-text">✨ Inference Console</h2>
+
+    <div class="max-w-3xl space-y-5">
+
+      <!-- Model Picker -->
+      <div>
+        <label class="block text-sm text-purple-300 mb-1">Select Trained Model</label>
+        <select id="modelSelect"
+          class="w-full bg-black border border-purple-500 p-2 rounded text-purple-200"></select>
+      </div>
+
+      <!-- Prompt -->
+      <div>
+        <label class="block text-sm text-purple-300 mb-1">Your Prompt</label>
+        <textarea id="prompt" rows="4"
+          class="w-full p-3 bg-black border border-purple-500 text-purple-200 rounded"
+          placeholder="Ask something to your fine-tuned model..."></textarea>
+      </div>
+
+      <!-- Hidden fields -->
+      <input type="hidden" id="baseModel">
+      <input type="hidden" id="adapterId">
+
+      <!-- Button -->
+      <button id="runBtn"
+        class="w-full bg-purple-600 hover:bg-purple-700 p-3 font-bold rounded-lg">
+        ⚡ Generate Response
+      </button>
+
+      <!-- Output -->
+      <div id="result"
+        class="bg-black border border-purple-600 rounded p-4 h-80 overflow-y-auto space-y-2 text-sm">
+      </div>
+
+    </div>
+  </main>
+</body>
+</html>

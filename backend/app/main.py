@@ -11,6 +11,7 @@ from .lora_infer import generate_text
 from .download import router as download_router
 from .predict import router as predict_router
 from .tasks import enqueue_training_job
+from routes import trained_models
 from .models import Dataset, Job
 from .config import settings
 from .db import get_db, Base, engine, SessionLocal
@@ -26,6 +27,7 @@ os.makedirs(settings.MODEL_DIR, exist_ok=True)
 app = FastAPI(title=settings.APP_NAME)
 app.include_router(predict_router)
 app.include_router(download_router)
+app.include_router(trained_models.router)
 
 app.add_middleware(
     CORSMiddleware,
@@ -47,7 +49,7 @@ def get_models():
     return {"models": AVAILABLE_MODELS}
 
 
-@app.post("/upload/", response_model=schemas.DatasetOut)
+@app.post("/api/datasets/upload", response_model=schemas.DatasetOut)
 async def upload_dataset(
     name: str = Form(...),
     file: UploadFile = File(...),

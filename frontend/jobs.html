@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>📊 Training Jobs — FTaaS</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/config.js"></script>
+  <script defer src="js/jobs.js"></script>
+</head>
+
+<body class="bg-black text-purple-200 font-mono h-screen flex">
+
+  <!-- ✅ Sidebar -->
+  <aside class="w-60 bg-black/80 border-r border-purple-600 p-6">
+    <h1 class="text-xl font-bold mb-6 neon-text">⚡ FTaaS</h1>
+    <nav class="space-y-3">
+      <a class="nav" href="index.html">🏠 Dashboard</a>
+      <a class="nav" href="upload.html">📂 Upload</a>
+      <a class="nav" href="train.html">🧠 Train</a>
+      <a class="nav active" href="jobs.html">📊 Jobs</a>
+      <a class="nav" href="infer.html">✨ Inference</a>
+      <a class="nav" href="download.html">⬇ Download</a>
+    </nav>
+  </aside>
+
+  <!-- ✅ Main Content -->
+  <main class="flex-1 overflow-y-auto p-8">
+    <h2 class="text-3xl mb-6 font-bold neon-text">Training Jobs Queue</h2>
+
+    <!-- ✅ Where jobs appear -->
+    <div id="jobList" class="space-y-4"></div>
+
+    <!-- ✅ Debug area -->
+    <div id="debug" class="text-xs text-gray-400 mt-6"></div>
+  </main>
+
+</body>
+</html>
+

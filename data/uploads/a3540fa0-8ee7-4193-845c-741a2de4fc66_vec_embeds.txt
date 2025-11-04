@@ -1,0 +1,110 @@
+[
+  {
+    "id": "overview_1",
+    "text": "LearnMate is an agentic AI coach that interactively builds personalized course pathways. It elicits a student's interests and current skill level, then sequences learning modules adaptively based on progress and feedback.",
+    "source_type": "description",
+    "tags": ["overview", "agentic_ai", "personalization"]
+  },
+  {
+    "id": "challenge_1",
+    "text": "Students struggle to choose the right learning path due to overwhelming course catalogs and lack of tailored guidance. Static curricula fail to adapt to evolving goals or current competency.",
+    "source_type": "problem_statement",
+    "tags": ["challenge", "cold_start", "adaptivity"]
+  },
+  {
+    "id": "capability_1",
+    "text": "Interest & Goal Elicitation: The agent engages in conversation to understand domains of interest (e.g., Frontend Development, Cybersecurity, UI/UX) and long-term aspirations.",
+    "source_type": "capability",
+    "tags": ["intake", "goal_inference"]
+  },
+  {
+    "id": "capability_2",
+    "text": "Skill Assessment: Lightweight probes, quizzes, and self-evaluations estimate a student's current competency in relevant topics.",
+    "source_type": "capability",
+    "tags": ["assessment", "skill_level"]
+  },
+  {
+    "id": "capability_3",
+    "text": "Pathway Generation: Given interests and skill level, the system sequences modules (foundational to advanced), aligning with learning preferences and suggesting micro-projects.",
+    "source_type": "capability",
+    "tags": ["planning", "roadmap"]
+  },
+  {
+    "id": "capability_4",
+    "text": "Adaptation Loop: Tracks progress, gathers explicit feedback, detects stagnation, and recalibrates the pathway dynamically.",
+    "source_type": "capability",
+    "tags": ["feedback", "adaptation"]
+  },
+  {
+    "id": "capability_5",
+    "text": "Explainability: Each recommendation is accompanied by rationale so students understand why a step is suggested.",
+    "source_type": "capability",
+    "tags": ["explainability"]
+  },
+  {
+    "id": "data_1",
+    "text": "Course Catalog: Structured descriptions with titles, prerequisites, outcomes, effort estimates, and domain tags (e.g., HTML/CSS, JavaScript, Web Security).",
+    "source_type": "data_requirement",
+    "tags": ["courses", "catalog"]
+  },
+  {
+    "id": "data_2",
+    "text": "Skill Taxonomy: Definitions of competencies such as DOM manipulation, responsive design, and authentication, with difficulty levels and dependencies.",
+    "source_type": "data_requirement",
+    "tags": ["skills", "taxonomy"]
+  },
+  {
+    "id": "data_3",
+    "text": "Student Profile: Interests, past performance, assessment results, learning preferences, and feedback are stored to personalize future recommendations.",
+    "source_type": "data_requirement",
+    "tags": ["profile", "history"]
+  },
+  {
+    "id": "expert_path_1",
+    "text": "Beginner UI/UX roadmap: 1. HTML/CSS basics, 2. Responsive design, 3. JavaScript interactivity, 4. Design principles, 5. Accessibility and user testing.",
+    "source_type": "seed_path",
+    "tags": ["uiux", "beginner", "example"]
+  },
+  {
+    "id": "expert_path_2",
+    "text": "Frontend developer sequence: 1. JavaScript fundamentals, 2. DOM and events, 3. Framework basics (React/Vue), 4. State management, 5. Performance optimization.",
+    "source_type": "seed_path",
+    "tags": ["frontend", "example"]
+  },
+  {
+    "id": "interaction_1",
+    "text": "Initial conversation: Agent asks about interests, current experience, preferred learning style, and long-term goals to build a cold-start profile.",
+    "source_type": "workflow",
+    "tags": ["intake", "cold_start"]
+  },
+  {
+    "id": "interaction_2",
+    "text": "Ongoing adaptation: After each module, agent asks for difficulty feedback (too easy / too hard), updates profile, and adjusts subsequent steps.",
+    "source_type": "workflow",
+    "tags": ["feedback_loop"]
+  },
+  {
+    "id": "prompt_template_1",
+    "text": "Prompt to generate roadmap: Given student profile with interests in Frontend and UI/UX, beginner JavaScript, intermediate HTML/CSS, and preference for project-based learning, output a 5-step JSON roadmap with module name, prerequisites, duration, mini-project, and reason.",
+    "source_type": "prompt_template",
+    "tags": ["planning", "example_prompt"]
+  },
+  {
+    "id": "metric_1",
+    "text": "Engagement: Percentage of students executing the next recommended step.",
+    "source_type": "evaluation_metric",
+    "tags": ["metrics", "engagement"]
+  },
+  {
+    "id": "metric_2",
+    "text": "Alignment: Degree to which pathway matches self-reported interests.",
+    "source_type": "evaluation_metric",
+    "tags": ["metrics", "alignment"]
+  },
+  {
+    "id": "metric_3",
+    "text": "Progress acceleration: Time to reach milestones compared to a static baseline.",
+    "source_type": "evaluation_metric",
+    "tags": ["metrics", "efficiency"]
+  }
+]
