@@ -1,0 +1,2413 @@
+[
+  {
+    "id": "career_guidance_goal_setting",
+    "text": "Define clear career goals and align learning pathway accordingly.",
+    "source_type": "overview",
+    "tags": [
+      "career_guidance",
+      "goal",
+      "setting"
+    ]
+  },
+  {
+    "id": "career_guidance_skill_gap_analysis",
+    "text": "Assess current skills versus desired career targets to identify gaps.",
+    "source_type": "overview",
+    "tags": [
+      "career_guidance",
+      "skill",
+      "gap",
+      "analysis"
+    ]
+  },
+  {
+    "id": "career_guidance_time_management",
+    "text": "Techniques for planning study schedules and avoiding burnout.",
+    "source_type": "overview",
+    "tags": [
+      "career_guidance",
+      "time",
+      "management"
+    ]
+  },
+  {
+    "id": "career_guidance_resume_building",
+    "text": "Translate project work into resume bullet points for job applications.",
+    "source_type": "overview",
+    "tags": [
+      "career_guidance",
+      "resume",
+      "building"
+    ]
+  },
+  {
+    "id": "career_guidance_networking",
+    "text": "Strategies to connect with mentors and peers in chosen domain.",
+    "source_type": "overview",
+    "tags": [
+      "career_guidance",
+      "networking"
+    ]
+  },
+  {
+    "id": "career_guidance_personal_branding",
+    "text": "Craft online presence and portfolio to showcase skills.",
+    "source_type": "overview",
+    "tags": [
+      "career_guidance",
+      "personal",
+      "branding"
+    ]
+  },
+  {
+    "id": "career_guidance_interview_prep",
+    "text": "Prepare for technical interviews with mock questions and feedback.",
+    "source_type": "overview",
+    "tags": [
+      "career_guidance",
+      "interview",
+      "prep"
+    ]
+  },
+  {
+    "id": "career_guidance_learning_styles",
+    "text": "Identify whether the student learns best via visual, auditory, or kinesthetic methods.",
+    "source_type": "overview",
+    "tags": [
+      "career_guidance",
+      "learning",
+      "styles"
+    ]
+  },
+  {
+    "id": "career_guidance_feedback_loop",
+    "text": "Use regular feedback to adapt the roadmap dynamically.",
+    "source_type": "overview",
+    "tags": [
+      "career_guidance",
+      "feedback",
+      "loop"
+    ]
+  },
+  {
+    "id": "career_guidance_motivation",
+    "text": "Maintain motivation through milestones and reward systems.",
+    "source_type": "overview",
+    "tags": [
+      "career_guidance",
+      "motivation"
+    ]
+  },
+  {
+    "id": "frontend_html_css_basics",
+    "text": "HTML & CSS fundamentals: structure, selectors, and responsive layouts.",
+    "source_type": "module",
+    "tags": [
+      "frontend",
+      "html",
+      "css",
+      "basics"
+    ]
+  },
+  {
+    "id": "frontend_javascript_basics",
+    "text": "JavaScript syntax, DOM, events, and basic interactivity.",
+    "source_type": "module",
+    "tags": [
+      "frontend",
+      "javascript",
+      "basics"
+    ]
+  },
+  {
+    "id": "frontend_accessibility",
+    "text": "Ensure web accessibility: ARIA, semantic markup, keyboard navigation.",
+    "source_type": "module",
+    "tags": [
+      "frontend",
+      "accessibility"
+    ]
+  },
+  {
+    "id": "frontend_responsive_design",
+    "text": "Media queries and fluid layouts for devices.",
+    "source_type": "module",
+    "tags": [
+      "frontend",
+      "responsive",
+      "design"
+    ]
+  },
+  {
+    "id": "frontend_react_intro",
+    "text": "React components, state, props, and JSX.",
+    "source_type": "module",
+    "tags": [
+      "frontend",
+      "react",
+      "intro"
+    ]
+  },
+  {
+    "id": "frontend_state_management",
+    "text": "Managing application state with context or libraries like Redux.",
+    "source_type": "module",
+    "tags": [
+      "frontend",
+      "state",
+      "management"
+    ]
+  },
+  {
+    "id": "frontend_frontend_build_tools",
+    "text": "Tooling: Webpack, Vite, bundling and transpilation.",
+    "source_type": "module",
+    "tags": [
+      "frontend",
+      "frontend",
+      "build",
+      "tools"
+    ]
+  },
+  {
+    "id": "frontend_performance_optimization",
+    "text": "Techniques for improving page load and runtime performance.",
+    "source_type": "module",
+    "tags": [
+      "frontend",
+      "performance",
+      "optimization"
+    ]
+  },
+  {
+    "id": "frontend_testing_frontend",
+    "text": "Unit and integration testing with Jest and Cypress.",
+    "source_type": "module",
+    "tags": [
+      "frontend",
+      "testing",
+      "frontend"
+    ]
+  },
+  {
+    "id": "frontend_seo_basics",
+    "text": "Search engine optimization best practices for frontend.",
+    "source_type": "module",
+    "tags": [
+      "frontend",
+      "seo",
+      "basics"
+    ]
+  },
+  {
+    "id": "frontend_css_frameworks",
+    "text": "Using frameworks like Tailwind or Bootstrap effectively.",
+    "source_type": "module",
+    "tags": [
+      "frontend",
+      "css",
+      "frameworks"
+    ]
+  },
+  {
+    "id": "frontend_client_side_routing",
+    "text": "Single page application routing with React Router.",
+    "source_type": "module",
+    "tags": [
+      "frontend",
+      "client",
+      "side",
+      "routing"
+    ]
+  },
+  {
+    "id": "frontend_progressive_web_apps",
+    "text": "PWA principles and service workers.",
+    "source_type": "module",
+    "tags": [
+      "frontend",
+      "progressive",
+      "web",
+      "apps"
+    ]
+  },
+  {
+    "id": "frontend_web_components",
+    "text": "Reusable components with shadow DOM.",
+    "source_type": "module",
+    "tags": [
+      "frontend",
+      "web",
+      "components"
+    ]
+  },
+  {
+    "id": "frontend_design_systems",
+    "text": "Creating consistent UI with tokens and components.",
+    "source_type": "module",
+    "tags": [
+      "frontend",
+      "design",
+      "systems"
+    ]
+  },
+  {
+    "id": "backend_nodejs_rest_api",
+    "text": "Building RESTful APIs with Node.js and Express.",
+    "source_type": "module",
+    "tags": [
+      "backend",
+      "nodejs",
+      "rest",
+      "api"
+    ]
+  },
+  {
+    "id": "backend_authentication",
+    "text": "Implement JWT and session-based authentication.",
+    "source_type": "module",
+    "tags": [
+      "backend",
+      "authentication"
+    ]
+  },
+  {
+    "id": "backend_databases_sql",
+    "text": "Relational databases & SQL querying.",
+    "source_type": "module",
+    "tags": [
+      "backend",
+      "databases",
+      "sql"
+    ]
+  },
+  {
+    "id": "backend_databases_nosql",
+    "text": "NoSQL databases like MongoDB and their use cases.",
+    "source_type": "module",
+    "tags": [
+      "backend",
+      "databases",
+      "nosql"
+    ]
+  },
+  {
+    "id": "backend_django_web",
+    "text": "Creating web apps using Django MVC patterns.",
+    "source_type": "module",
+    "tags": [
+      "backend",
+      "django",
+      "web"
+    ]
+  },
+  {
+    "id": "backend_flask_micro",
+    "text": "Lightweight APIs with Flask.",
+    "source_type": "module",
+    "tags": [
+      "backend",
+      "flask",
+      "micro"
+    ]
+  },
+  {
+    "id": "backend_api_versioning",
+    "text": "Handling versioned API design.",
+    "source_type": "module",
+    "tags": [
+      "backend",
+      "api",
+      "versioning"
+    ]
+  },
+  {
+    "id": "backend_caching",
+    "text": "Caching strategies with Redis or in-memory stores.",
+    "source_type": "module",
+    "tags": [
+      "backend",
+      "caching"
+    ]
+  },
+  {
+    "id": "backend_background_jobs",
+    "text": "Asynchronous tasks with Celery or worker queues.",
+    "source_type": "module",
+    "tags": [
+      "backend",
+      "background",
+      "jobs"
+    ]
+  },
+  {
+    "id": "backend_logging_monitoring",
+    "text": "Observability with structured logging and monitoring.",
+    "source_type": "module",
+    "tags": [
+      "backend",
+      "logging",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "backend_security_best_practices",
+    "text": "Secure coding, input validation, and OWASP top 10.",
+    "source_type": "module",
+    "tags": [
+      "backend",
+      "security",
+      "best",
+      "practices"
+    ]
+  },
+  {
+    "id": "backend_rate_limiting",
+    "text": "Prevent abuse with throttling strategies.",
+    "source_type": "module",
+    "tags": [
+      "backend",
+      "rate",
+      "limiting"
+    ]
+  },
+  {
+    "id": "backend_transaction_management",
+    "text": "Ensure data consistency with transactions.",
+    "source_type": "module",
+    "tags": [
+      "backend",
+      "transaction",
+      "management"
+    ]
+  },
+  {
+    "id": "backend_scaling_services",
+    "text": "Horizontal and vertical scaling techniques.",
+    "source_type": "module",
+    "tags": [
+      "backend",
+      "scaling",
+      "services"
+    ]
+  },
+  {
+    "id": "backend_grpc_intro",
+    "text": "High-performance communication with gRPC.",
+    "source_type": "module",
+    "tags": [
+      "backend",
+      "grpc",
+      "intro"
+    ]
+  },
+  {
+    "id": "data_science_ai_statistics_fundamentals",
+    "text": "Probability distributions, sampling, hypothesis testing.",
+    "source_type": "module",
+    "tags": [
+      "data_science_ai",
+      "statistics",
+      "fundamentals"
+    ]
+  },
+  {
+    "id": "data_science_ai_python_data_tooling",
+    "text": "NumPy, Pandas for manipulation.",
+    "source_type": "module",
+    "tags": [
+      "data_science_ai",
+      "python",
+      "data",
+      "tooling"
+    ]
+  },
+  {
+    "id": "data_science_ai_data_visualization",
+    "text": "Matplotlib, Seaborn, interactive plots.",
+    "source_type": "module",
+    "tags": [
+      "data_science_ai",
+      "data",
+      "visualization"
+    ]
+  },
+  {
+    "id": "data_science_ai_feature_engineering",
+    "text": "Creating predictive features from raw data.",
+    "source_type": "module",
+    "tags": [
+      "data_science_ai",
+      "feature",
+      "engineering"
+    ]
+  },
+  {
+    "id": "data_science_ai_model_evaluation",
+    "text": "Cross-validation, precision/recall, ROC.",
+    "source_type": "module",
+    "tags": [
+      "data_science_ai",
+      "model",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "data_science_ai_supervised_learning",
+    "text": "Regression and classification algorithms.",
+    "source_type": "module",
+    "tags": [
+      "data_science_ai",
+      "supervised",
+      "learning"
+    ]
+  },
+  {
+    "id": "data_science_ai_unsupervised_learning",
+    "text": "Clustering and dimensionality reduction.",
+    "source_type": "module",
+    "tags": [
+      "data_science_ai",
+      "unsupervised",
+      "learning"
+    ]
+  },
+  {
+    "id": "data_science_ai_deep_learning_intro",
+    "text": "Neural networks and backpropagation basics.",
+    "source_type": "module",
+    "tags": [
+      "data_science_ai",
+      "deep",
+      "learning",
+      "intro"
+    ]
+  },
+  {
+    "id": "data_science_ai_nlp_basics",
+    "text": "Tokenization, embeddings, language models.",
+    "source_type": "module",
+    "tags": [
+      "data_science_ai",
+      "nlp",
+      "basics"
+    ]
+  },
+  {
+    "id": "data_science_ai_time_series",
+    "text": "Forecasting techniques and seasonality handling.",
+    "source_type": "module",
+    "tags": [
+      "data_science_ai",
+      "time",
+      "series"
+    ]
+  },
+  {
+    "id": "data_science_ai_model_deployment",
+    "text": "Serving models with APIs and monitoring.",
+    "source_type": "module",
+    "tags": [
+      "data_science_ai",
+      "model",
+      "deployment"
+    ]
+  },
+  {
+    "id": "data_science_ai_explainable_ai",
+    "text": "Interpretable model techniques.",
+    "source_type": "module",
+    "tags": [
+      "data_science_ai",
+      "explainable",
+      "ai"
+    ]
+  },
+  {
+    "id": "data_science_ai_data_ethics",
+    "text": "Bias, fairness, and responsible use.",
+    "source_type": "module",
+    "tags": [
+      "data_science_ai",
+      "data",
+      "ethics"
+    ]
+  },
+  {
+    "id": "data_science_ai_automl",
+    "text": "Automated machine learning pipelines.",
+    "source_type": "module",
+    "tags": [
+      "data_science_ai",
+      "automl"
+    ]
+  },
+  {
+    "id": "data_science_ai_reinforcement_learning",
+    "text": "Agents, rewards, and policy learning.",
+    "source_type": "module",
+    "tags": [
+      "data_science_ai",
+      "reinforcement",
+      "learning"
+    ]
+  },
+  {
+    "id": "cybersecurity_network_security",
+    "text": "Firewalls, VPNs, and secure network design.",
+    "source_type": "module",
+    "tags": [
+      "cybersecurity",
+      "network",
+      "security"
+    ]
+  },
+  {
+    "id": "cybersecurity_web_app_security",
+    "text": "Protecting web apps from XSS, SQLi, CSRF.",
+    "source_type": "module",
+    "tags": [
+      "cybersecurity",
+      "web",
+      "app",
+      "security"
+    ]
+  },
+  {
+    "id": "cybersecurity_cryptography_basics",
+    "text": "Encryption, hashing, and key management.",
+    "source_type": "module",
+    "tags": [
+      "cybersecurity",
+      "cryptography",
+      "basics"
+    ]
+  },
+  {
+    "id": "cybersecurity_identity_access",
+    "text": "IAM principles and least privilege.",
+    "source_type": "module",
+    "tags": [
+      "cybersecurity",
+      "identity",
+      "access"
+    ]
+  },
+  {
+    "id": "cybersecurity_incident_response",
+    "text": "Detecting and responding to breaches.",
+    "source_type": "module",
+    "tags": [
+      "cybersecurity",
+      "incident",
+      "response"
+    ]
+  },
+  {
+    "id": "cybersecurity_penetration_testing",
+    "text": "Ethical hacking methodology.",
+    "source_type": "module",
+    "tags": [
+      "cybersecurity",
+      "penetration",
+      "testing"
+    ]
+  },
+  {
+    "id": "cybersecurity_secure_devops",
+    "text": "Shifting security left in CI/CD.",
+    "source_type": "module",
+    "tags": [
+      "cybersecurity",
+      "secure",
+      "devops"
+    ]
+  },
+  {
+    "id": "cybersecurity_threat_modeling",
+    "text": "Identifying attack surfaces and risks.",
+    "source_type": "module",
+    "tags": [
+      "cybersecurity",
+      "threat",
+      "modeling"
+    ]
+  },
+  {
+    "id": "cybersecurity_vulnerability_scanning",
+    "text": "Automated vulnerability discovery.",
+    "source_type": "module",
+    "tags": [
+      "cybersecurity",
+      "vulnerability",
+      "scanning"
+    ]
+  },
+  {
+    "id": "cybersecurity_security_auditing",
+    "text": "Compliance checks and logs review.",
+    "source_type": "module",
+    "tags": [
+      "cybersecurity",
+      "security",
+      "auditing"
+    ]
+  },
+  {
+    "id": "cybersecurity_phishing_awareness",
+    "text": "Social engineering defenses.",
+    "source_type": "module",
+    "tags": [
+      "cybersecurity",
+      "phishing",
+      "awareness"
+    ]
+  },
+  {
+    "id": "cybersecurity_zero_trust",
+    "text": "Architecture minimizing implicit trust.",
+    "source_type": "module",
+    "tags": [
+      "cybersecurity",
+      "zero",
+      "trust"
+    ]
+  },
+  {
+    "id": "cybersecurity_malware_analysis",
+    "text": "Static and dynamic analysis techniques.",
+    "source_type": "module",
+    "tags": [
+      "cybersecurity",
+      "malware",
+      "analysis"
+    ]
+  },
+  {
+    "id": "cybersecurity_forensics",
+    "text": "Data collection and chain of custody.",
+    "source_type": "module",
+    "tags": [
+      "cybersecurity",
+      "forensics"
+    ]
+  },
+  {
+    "id": "cybersecurity_security_policy",
+    "text": "Creating enforceable security policies.",
+    "source_type": "module",
+    "tags": [
+      "cybersecurity",
+      "security",
+      "policy"
+    ]
+  },
+  {
+    "id": "uiux_design_principles",
+    "text": "Contrast, hierarchy, alignment, and spacing.",
+    "source_type": "module",
+    "tags": [
+      "uiux",
+      "design",
+      "principles"
+    ]
+  },
+  {
+    "id": "uiux_user_research",
+    "text": "Interviewing users and building personas.",
+    "source_type": "module",
+    "tags": [
+      "uiux",
+      "user",
+      "research"
+    ]
+  },
+  {
+    "id": "uiux_wireframing",
+    "text": "Low-fidelity layout planning.",
+    "source_type": "module",
+    "tags": [
+      "uiux",
+      "wireframing"
+    ]
+  },
+  {
+    "id": "uiux_prototyping",
+    "text": "Interactive designs with tools like Figma.",
+    "source_type": "module",
+    "tags": [
+      "uiux",
+      "prototyping"
+    ]
+  },
+  {
+    "id": "uiux_usability_testing",
+    "text": "Collecting feedback and iterating designs.",
+    "source_type": "module",
+    "tags": [
+      "uiux",
+      "usability",
+      "testing"
+    ]
+  },
+  {
+    "id": "uiux_information_architecture",
+    "text": "Organizing content logically.",
+    "source_type": "module",
+    "tags": [
+      "uiux",
+      "information",
+      "architecture"
+    ]
+  },
+  {
+    "id": "uiux_visual_design",
+    "text": "Color theory, typography, and iconography.",
+    "source_type": "module",
+    "tags": [
+      "uiux",
+      "visual",
+      "design"
+    ]
+  },
+  {
+    "id": "uiux_accessibility_design",
+    "text": "Inclusive design practices.",
+    "source_type": "module",
+    "tags": [
+      "uiux",
+      "accessibility",
+      "design"
+    ]
+  },
+  {
+    "id": "uiux_design_systems_ui",
+    "text": "Reusable component libraries.",
+    "source_type": "module",
+    "tags": [
+      "uiux",
+      "design",
+      "systems",
+      "ui"
+    ]
+  },
+  {
+    "id": "uiux_user_flows",
+    "text": "Mapping task sequences for users.",
+    "source_type": "module",
+    "tags": [
+      "uiux",
+      "user",
+      "flows"
+    ]
+  },
+  {
+    "id": "uiux_interaction_design",
+    "text": "Microinteractions and affordances.",
+    "source_type": "module",
+    "tags": [
+      "uiux",
+      "interaction",
+      "design"
+    ]
+  },
+  {
+    "id": "uiux_mobile_first",
+    "text": "Designing responsive mobile experiences.",
+    "source_type": "module",
+    "tags": [
+      "uiux",
+      "mobile",
+      "first"
+    ]
+  },
+  {
+    "id": "uiux_persona_mapping",
+    "text": "Aligning features with user types.",
+    "source_type": "module",
+    "tags": [
+      "uiux",
+      "persona",
+      "mapping"
+    ]
+  },
+  {
+    "id": "uiux_heuristic_evaluation",
+    "text": "Expert usability inspection methods.",
+    "source_type": "module",
+    "tags": [
+      "uiux",
+      "heuristic",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "uiux_content_strategy",
+    "text": "Effective copy and microcopy planning.",
+    "source_type": "module",
+    "tags": [
+      "uiux",
+      "content",
+      "strategy"
+    ]
+  },
+  {
+    "id": "cloud_devops_cloud_fundamentals",
+    "text": "Understanding IaaS, PaaS, SaaS and virtualization.",
+    "source_type": "module",
+    "tags": [
+      "cloud_devops",
+      "cloud",
+      "fundamentals"
+    ]
+  },
+  {
+    "id": "cloud_devops_containerization",
+    "text": "Docker basics and image management.",
+    "source_type": "module",
+    "tags": [
+      "cloud_devops",
+      "containerization"
+    ]
+  },
+  {
+    "id": "cloud_devops_orchestration",
+    "text": "Kubernetes clusters and workloads.",
+    "source_type": "module",
+    "tags": [
+      "cloud_devops",
+      "orchestration"
+    ]
+  },
+  {
+    "id": "cloud_devops_infrastructure_as_code",
+    "text": "Terraform/CloudFormation for reproducible infra.",
+    "source_type": "module",
+    "tags": [
+      "cloud_devops",
+      "infrastructure",
+      "as",
+      "code"
+    ]
+  },
+  {
+    "id": "cloud_devops_ci_cd",
+    "text": "Automated build/test/deploy pipelines.",
+    "source_type": "module",
+    "tags": [
+      "cloud_devops",
+      "ci",
+      "cd"
+    ]
+  },
+  {
+    "id": "cloud_devops_monitoring_alerting",
+    "text": "Prometheus, Grafana, and SLOs.",
+    "source_type": "module",
+    "tags": [
+      "cloud_devops",
+      "monitoring",
+      "alerting"
+    ]
+  },
+  {
+    "id": "cloud_devops_serverless",
+    "text": "Function-as-a-service patterns.",
+    "source_type": "module",
+    "tags": [
+      "cloud_devops",
+      "serverless"
+    ]
+  },
+  {
+    "id": "cloud_devops_cloud_security",
+    "text": "IAM, encryption at rest/in transit.",
+    "source_type": "module",
+    "tags": [
+      "cloud_devops",
+      "cloud",
+      "security"
+    ]
+  },
+  {
+    "id": "cloud_devops_cost_management",
+    "text": "Optimizing cloud spend.",
+    "source_type": "module",
+    "tags": [
+      "cloud_devops",
+      "cost",
+      "management"
+    ]
+  },
+  {
+    "id": "cloud_devops_service_mesh",
+    "text": "Traffic management with Istio/linkerd.",
+    "source_type": "module",
+    "tags": [
+      "cloud_devops",
+      "service",
+      "mesh"
+    ]
+  },
+  {
+    "id": "cloud_devops_edge_computing",
+    "text": "Low-latency distributed systems.",
+    "source_type": "module",
+    "tags": [
+      "cloud_devops",
+      "edge",
+      "computing"
+    ]
+  },
+  {
+    "id": "cloud_devops_observability",
+    "text": "Tracing, logging, and metrics unification.",
+    "source_type": "module",
+    "tags": [
+      "cloud_devops",
+      "observability"
+    ]
+  },
+  {
+    "id": "cloud_devops_deployment_strategies",
+    "text": "Blue-green, canary, rolling updates.",
+    "source_type": "module",
+    "tags": [
+      "cloud_devops",
+      "deployment",
+      "strategies"
+    ]
+  },
+  {
+    "id": "cloud_devops_backup_recovery",
+    "text": "Resilience and disaster recovery planning.",
+    "source_type": "module",
+    "tags": [
+      "cloud_devops",
+      "backup",
+      "recovery"
+    ]
+  },
+  {
+    "id": "cloud_devops_hybrid_cloud",
+    "text": "Combining on-prem and cloud infrastructure.",
+    "source_type": "module",
+    "tags": [
+      "cloud_devops",
+      "hybrid",
+      "cloud"
+    ]
+  },
+  {
+    "id": "specialized_blockchain_basics",
+    "text": "Distributed ledger, consensus, and smart contracts.",
+    "source_type": "module",
+    "tags": [
+      "specialized",
+      "blockchain",
+      "basics"
+    ]
+  },
+  {
+    "id": "specialized_smart_contract_dev",
+    "text": "Writing secure contracts in Solidity.",
+    "source_type": "module",
+    "tags": [
+      "specialized",
+      "smart",
+      "contract",
+      "dev"
+    ]
+  },
+  {
+    "id": "specialized_decentralized_apps",
+    "text": "Frontend + blockchain integration.",
+    "source_type": "module",
+    "tags": [
+      "specialized",
+      "decentralized",
+      "apps"
+    ]
+  },
+  {
+    "id": "specialized_ar_vr_intro",
+    "text": "Immersive interface design and development.",
+    "source_type": "module",
+    "tags": [
+      "specialized",
+      "ar",
+      "vr",
+      "intro"
+    ]
+  },
+  {
+    "id": "specialized_game_dev_fundamentals",
+    "text": "Game loops, physics, and asset pipelines.",
+    "source_type": "module",
+    "tags": [
+      "specialized",
+      "game",
+      "dev",
+      "fundamentals"
+    ]
+  },
+  {
+    "id": "specialized_real_time_graphics",
+    "text": "Shaders, rendering pipelines.",
+    "source_type": "module",
+    "tags": [
+      "specialized",
+      "real",
+      "time",
+      "graphics"
+    ]
+  },
+  {
+    "id": "specialized_voice_ui",
+    "text": "Designing conversational voice interfaces.",
+    "source_type": "module",
+    "tags": [
+      "specialized",
+      "voice",
+      "ui"
+    ]
+  },
+  {
+    "id": "specialized_iot_intro",
+    "text": "Embedded systems and sensor networks.",
+    "source_type": "module",
+    "tags": [
+      "specialized",
+      "iot",
+      "intro"
+    ]
+  },
+  {
+    "id": "specialized_quantum_computing_basics",
+    "text": "Qubits, superposition, and algorithms.",
+    "source_type": "module",
+    "tags": [
+      "specialized",
+      "quantum",
+      "computing",
+      "basics"
+    ]
+  },
+  {
+    "id": "specialized_robotics_intro",
+    "text": "Control systems and perception.",
+    "source_type": "module",
+    "tags": [
+      "specialized",
+      "robotics",
+      "intro"
+    ]
+  },
+  {
+    "id": "learning_principles_spaced_repetition",
+    "text": "Using spaced intervals to improve retention.",
+    "source_type": "principle",
+    "tags": [
+      "learning_principles",
+      "spaced",
+      "repetition"
+    ]
+  },
+  {
+    "id": "learning_principles_active_recall",
+    "text": "Testing oneself to strengthen memory.",
+    "source_type": "principle",
+    "tags": [
+      "learning_principles",
+      "active",
+      "recall"
+    ]
+  },
+  {
+    "id": "learning_principles_interleaving",
+    "text": "Mixing topics to enhance discrimination.",
+    "source_type": "principle",
+    "tags": [
+      "learning_principles",
+      "interleaving"
+    ]
+  },
+  {
+    "id": "learning_principles_meta_learning",
+    "text": "Reflecting on how you learn.",
+    "source_type": "principle",
+    "tags": [
+      "learning_principles",
+      "meta",
+      "learning"
+    ]
+  },
+  {
+    "id": "learning_principles_goal_setting_learning",
+    "text": "Setting SMART goals for study.",
+    "source_type": "principle",
+    "tags": [
+      "learning_principles",
+      "goal",
+      "setting",
+      "learning"
+    ]
+  },
+  {
+    "id": "learning_principles_pomodoro",
+    "text": "Time-boxed focused sessions with breaks.",
+    "source_type": "principle",
+    "tags": [
+      "learning_principles",
+      "pomodoro"
+    ]
+  },
+  {
+    "id": "learning_principles_peer_learning",
+    "text": "Collaborative study and teaching others.",
+    "source_type": "principle",
+    "tags": [
+      "learning_principles",
+      "peer",
+      "learning"
+    ]
+  },
+  {
+    "id": "learning_principles_self_assessment",
+    "text": "Regular evaluation of understanding.",
+    "source_type": "principle",
+    "tags": [
+      "learning_principles",
+      "self",
+      "assessment"
+    ]
+  },
+  {
+    "id": "learning_principles_adaptive_feedback",
+    "text": "Adjust difficulty based on performance.",
+    "source_type": "principle",
+    "tags": [
+      "learning_principles",
+      "adaptive",
+      "feedback"
+    ]
+  },
+  {
+    "id": "learning_principles_growth_mindset",
+    "text": "Belief that abilities improve with effort.",
+    "source_type": "principle",
+    "tags": [
+      "learning_principles",
+      "growth",
+      "mindset"
+    ]
+  },
+  {
+    "id": "career_guidance_goal_setting_tip1",
+    "text": "Tip: To master setting, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "goal",
+      "setting"
+    ]
+  },
+  {
+    "id": "career_guidance_goal_setting_tip2",
+    "text": "Tip: To master setting, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "goal",
+      "setting"
+    ]
+  },
+  {
+    "id": "career_guidance_skill_gap_analysis_tip1",
+    "text": "Tip: To master analysis, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "skill",
+      "gap",
+      "analysis"
+    ]
+  },
+  {
+    "id": "career_guidance_skill_gap_analysis_tip2",
+    "text": "Tip: To master analysis, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "skill",
+      "gap",
+      "analysis"
+    ]
+  },
+  {
+    "id": "career_guidance_time_management_tip1",
+    "text": "Tip: To master management, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "time",
+      "management"
+    ]
+  },
+  {
+    "id": "career_guidance_time_management_tip2",
+    "text": "Tip: To master management, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "time",
+      "management"
+    ]
+  },
+  {
+    "id": "career_guidance_resume_building_tip1",
+    "text": "Tip: To master building, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "resume",
+      "building"
+    ]
+  },
+  {
+    "id": "career_guidance_resume_building_tip2",
+    "text": "Tip: To master building, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "resume",
+      "building"
+    ]
+  },
+  {
+    "id": "career_guidance_networking_tip1",
+    "text": "Tip: To master networking, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "networking"
+    ]
+  },
+  {
+    "id": "career_guidance_networking_tip2",
+    "text": "Tip: To master networking, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "networking"
+    ]
+  },
+  {
+    "id": "career_guidance_personal_branding_tip1",
+    "text": "Tip: To master branding, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "personal",
+      "branding"
+    ]
+  },
+  {
+    "id": "career_guidance_personal_branding_tip2",
+    "text": "Tip: To master branding, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "personal",
+      "branding"
+    ]
+  },
+  {
+    "id": "career_guidance_interview_prep_tip1",
+    "text": "Tip: To master prep, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "interview",
+      "prep"
+    ]
+  },
+  {
+    "id": "career_guidance_interview_prep_tip2",
+    "text": "Tip: To master prep, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "interview",
+      "prep"
+    ]
+  },
+  {
+    "id": "career_guidance_learning_styles_tip1",
+    "text": "Tip: To master styles, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "learning",
+      "styles"
+    ]
+  },
+  {
+    "id": "career_guidance_learning_styles_tip2",
+    "text": "Tip: To master styles, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "learning",
+      "styles"
+    ]
+  },
+  {
+    "id": "career_guidance_feedback_loop_tip1",
+    "text": "Tip: To master loop, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "feedback",
+      "loop"
+    ]
+  },
+  {
+    "id": "career_guidance_feedback_loop_tip2",
+    "text": "Tip: To master loop, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "feedback",
+      "loop"
+    ]
+  },
+  {
+    "id": "career_guidance_motivation_tip1",
+    "text": "Tip: To master motivation, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "motivation"
+    ]
+  },
+  {
+    "id": "career_guidance_motivation_tip2",
+    "text": "Tip: To master motivation, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "career_guidance",
+      "motivation"
+    ]
+  },
+  {
+    "id": "frontend_html_css_basics_tip1",
+    "text": "Tip: To master basics, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "html",
+      "css",
+      "basics"
+    ]
+  },
+  {
+    "id": "frontend_html_css_basics_tip2",
+    "text": "Tip: To master basics, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "html",
+      "css",
+      "basics"
+    ]
+  },
+  {
+    "id": "frontend_javascript_basics_tip1",
+    "text": "Tip: To master basics, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "javascript",
+      "basics"
+    ]
+  },
+  {
+    "id": "frontend_javascript_basics_tip2",
+    "text": "Tip: To master basics, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "javascript",
+      "basics"
+    ]
+  },
+  {
+    "id": "frontend_accessibility_tip1",
+    "text": "Tip: To master accessibility, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "accessibility"
+    ]
+  },
+  {
+    "id": "frontend_accessibility_tip2",
+    "text": "Tip: To master accessibility, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "accessibility"
+    ]
+  },
+  {
+    "id": "frontend_responsive_design_tip1",
+    "text": "Tip: To master design, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "responsive",
+      "design"
+    ]
+  },
+  {
+    "id": "frontend_responsive_design_tip2",
+    "text": "Tip: To master design, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "responsive",
+      "design"
+    ]
+  },
+  {
+    "id": "frontend_react_intro_tip1",
+    "text": "Tip: To master intro, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "react",
+      "intro"
+    ]
+  },
+  {
+    "id": "frontend_react_intro_tip2",
+    "text": "Tip: To master intro, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "react",
+      "intro"
+    ]
+  },
+  {
+    "id": "frontend_state_management_tip1",
+    "text": "Tip: To master management, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "state",
+      "management"
+    ]
+  },
+  {
+    "id": "frontend_state_management_tip2",
+    "text": "Tip: To master management, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "state",
+      "management"
+    ]
+  },
+  {
+    "id": "frontend_frontend_build_tools_tip1",
+    "text": "Tip: To master tools, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "frontend",
+      "build",
+      "tools"
+    ]
+  },
+  {
+    "id": "frontend_frontend_build_tools_tip2",
+    "text": "Tip: To master tools, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "frontend",
+      "build",
+      "tools"
+    ]
+  },
+  {
+    "id": "frontend_performance_optimization_tip1",
+    "text": "Tip: To master optimization, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "performance",
+      "optimization"
+    ]
+  },
+  {
+    "id": "frontend_performance_optimization_tip2",
+    "text": "Tip: To master optimization, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "performance",
+      "optimization"
+    ]
+  },
+  {
+    "id": "frontend_testing_frontend_tip1",
+    "text": "Tip: To master frontend, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "testing",
+      "frontend"
+    ]
+  },
+  {
+    "id": "frontend_testing_frontend_tip2",
+    "text": "Tip: To master frontend, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "testing",
+      "frontend"
+    ]
+  },
+  {
+    "id": "frontend_seo_basics_tip1",
+    "text": "Tip: To master basics, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "seo",
+      "basics"
+    ]
+  },
+  {
+    "id": "frontend_seo_basics_tip2",
+    "text": "Tip: To master basics, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "seo",
+      "basics"
+    ]
+  },
+  {
+    "id": "frontend_css_frameworks_tip1",
+    "text": "Tip: To master frameworks, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "css",
+      "frameworks"
+    ]
+  },
+  {
+    "id": "frontend_css_frameworks_tip2",
+    "text": "Tip: To master frameworks, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "css",
+      "frameworks"
+    ]
+  },
+  {
+    "id": "frontend_client_side_routing_tip1",
+    "text": "Tip: To master routing, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "client",
+      "side",
+      "routing"
+    ]
+  },
+  {
+    "id": "frontend_client_side_routing_tip2",
+    "text": "Tip: To master routing, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "client",
+      "side",
+      "routing"
+    ]
+  },
+  {
+    "id": "frontend_progressive_web_apps_tip1",
+    "text": "Tip: To master apps, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "progressive",
+      "web",
+      "apps"
+    ]
+  },
+  {
+    "id": "frontend_progressive_web_apps_tip2",
+    "text": "Tip: To master apps, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "progressive",
+      "web",
+      "apps"
+    ]
+  },
+  {
+    "id": "frontend_web_components_tip1",
+    "text": "Tip: To master components, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "web",
+      "components"
+    ]
+  },
+  {
+    "id": "frontend_web_components_tip2",
+    "text": "Tip: To master components, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "web",
+      "components"
+    ]
+  },
+  {
+    "id": "frontend_design_systems_tip1",
+    "text": "Tip: To master systems, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "design",
+      "systems"
+    ]
+  },
+  {
+    "id": "frontend_design_systems_tip2",
+    "text": "Tip: To master systems, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "frontend",
+      "design",
+      "systems"
+    ]
+  },
+  {
+    "id": "backend_nodejs_rest_api_tip1",
+    "text": "Tip: To master api, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "nodejs",
+      "rest",
+      "api"
+    ]
+  },
+  {
+    "id": "backend_nodejs_rest_api_tip2",
+    "text": "Tip: To master api, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "nodejs",
+      "rest",
+      "api"
+    ]
+  },
+  {
+    "id": "backend_authentication_tip1",
+    "text": "Tip: To master authentication, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "authentication"
+    ]
+  },
+  {
+    "id": "backend_authentication_tip2",
+    "text": "Tip: To master authentication, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "authentication"
+    ]
+  },
+  {
+    "id": "backend_databases_sql_tip1",
+    "text": "Tip: To master sql, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "databases",
+      "sql"
+    ]
+  },
+  {
+    "id": "backend_databases_sql_tip2",
+    "text": "Tip: To master sql, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "databases",
+      "sql"
+    ]
+  },
+  {
+    "id": "backend_databases_nosql_tip1",
+    "text": "Tip: To master nosql, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "databases",
+      "nosql"
+    ]
+  },
+  {
+    "id": "backend_databases_nosql_tip2",
+    "text": "Tip: To master nosql, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "databases",
+      "nosql"
+    ]
+  },
+  {
+    "id": "backend_django_web_tip1",
+    "text": "Tip: To master web, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "django",
+      "web"
+    ]
+  },
+  {
+    "id": "backend_django_web_tip2",
+    "text": "Tip: To master web, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "django",
+      "web"
+    ]
+  },
+  {
+    "id": "backend_flask_micro_tip1",
+    "text": "Tip: To master micro, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "flask",
+      "micro"
+    ]
+  },
+  {
+    "id": "backend_flask_micro_tip2",
+    "text": "Tip: To master micro, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "flask",
+      "micro"
+    ]
+  },
+  {
+    "id": "backend_api_versioning_tip1",
+    "text": "Tip: To master versioning, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "api",
+      "versioning"
+    ]
+  },
+  {
+    "id": "backend_api_versioning_tip2",
+    "text": "Tip: To master versioning, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "api",
+      "versioning"
+    ]
+  },
+  {
+    "id": "backend_caching_tip1",
+    "text": "Tip: To master caching, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "caching"
+    ]
+  },
+  {
+    "id": "backend_caching_tip2",
+    "text": "Tip: To master caching, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "caching"
+    ]
+  },
+  {
+    "id": "backend_background_jobs_tip1",
+    "text": "Tip: To master jobs, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "background",
+      "jobs"
+    ]
+  },
+  {
+    "id": "backend_background_jobs_tip2",
+    "text": "Tip: To master jobs, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "background",
+      "jobs"
+    ]
+  },
+  {
+    "id": "backend_logging_monitoring_tip1",
+    "text": "Tip: To master monitoring, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "logging",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "backend_logging_monitoring_tip2",
+    "text": "Tip: To master monitoring, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "logging",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "backend_security_best_practices_tip1",
+    "text": "Tip: To master practices, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "security",
+      "best",
+      "practices"
+    ]
+  },
+  {
+    "id": "backend_security_best_practices_tip2",
+    "text": "Tip: To master practices, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "security",
+      "best",
+      "practices"
+    ]
+  },
+  {
+    "id": "backend_rate_limiting_tip1",
+    "text": "Tip: To master limiting, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "rate",
+      "limiting"
+    ]
+  },
+  {
+    "id": "backend_rate_limiting_tip2",
+    "text": "Tip: To master limiting, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "rate",
+      "limiting"
+    ]
+  },
+  {
+    "id": "backend_transaction_management_tip1",
+    "text": "Tip: To master management, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "transaction",
+      "management"
+    ]
+  },
+  {
+    "id": "backend_transaction_management_tip2",
+    "text": "Tip: To master management, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "transaction",
+      "management"
+    ]
+  },
+  {
+    "id": "backend_scaling_services_tip1",
+    "text": "Tip: To master services, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "scaling",
+      "services"
+    ]
+  },
+  {
+    "id": "backend_scaling_services_tip2",
+    "text": "Tip: To master services, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "scaling",
+      "services"
+    ]
+  },
+  {
+    "id": "backend_grpc_intro_tip1",
+    "text": "Tip: To master intro, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "grpc",
+      "intro"
+    ]
+  },
+  {
+    "id": "backend_grpc_intro_tip2",
+    "text": "Tip: To master intro, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "backend",
+      "grpc",
+      "intro"
+    ]
+  },
+  {
+    "id": "data_science_ai_statistics_fundamentals_tip1",
+    "text": "Tip: To master fundamentals, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "statistics",
+      "fundamentals"
+    ]
+  },
+  {
+    "id": "data_science_ai_statistics_fundamentals_tip2",
+    "text": "Tip: To master fundamentals, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "statistics",
+      "fundamentals"
+    ]
+  },
+  {
+    "id": "data_science_ai_python_data_tooling_tip1",
+    "text": "Tip: To master tooling, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "python",
+      "data",
+      "tooling"
+    ]
+  },
+  {
+    "id": "data_science_ai_python_data_tooling_tip2",
+    "text": "Tip: To master tooling, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "python",
+      "data",
+      "tooling"
+    ]
+  },
+  {
+    "id": "data_science_ai_data_visualization_tip1",
+    "text": "Tip: To master visualization, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "data",
+      "visualization"
+    ]
+  },
+  {
+    "id": "data_science_ai_data_visualization_tip2",
+    "text": "Tip: To master visualization, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "data",
+      "visualization"
+    ]
+  },
+  {
+    "id": "data_science_ai_feature_engineering_tip1",
+    "text": "Tip: To master engineering, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "feature",
+      "engineering"
+    ]
+  },
+  {
+    "id": "data_science_ai_feature_engineering_tip2",
+    "text": "Tip: To master engineering, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "feature",
+      "engineering"
+    ]
+  },
+  {
+    "id": "data_science_ai_model_evaluation_tip1",
+    "text": "Tip: To master evaluation, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "model",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "data_science_ai_model_evaluation_tip2",
+    "text": "Tip: To master evaluation, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "model",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "data_science_ai_supervised_learning_tip1",
+    "text": "Tip: To master learning, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "supervised",
+      "learning"
+    ]
+  },
+  {
+    "id": "data_science_ai_supervised_learning_tip2",
+    "text": "Tip: To master learning, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "supervised",
+      "learning"
+    ]
+  },
+  {
+    "id": "data_science_ai_unsupervised_learning_tip1",
+    "text": "Tip: To master learning, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "unsupervised",
+      "learning"
+    ]
+  },
+  {
+    "id": "data_science_ai_unsupervised_learning_tip2",
+    "text": "Tip: To master learning, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "unsupervised",
+      "learning"
+    ]
+  },
+  {
+    "id": "data_science_ai_deep_learning_intro_tip1",
+    "text": "Tip: To master intro, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "deep",
+      "learning",
+      "intro"
+    ]
+  },
+  {
+    "id": "data_science_ai_deep_learning_intro_tip2",
+    "text": "Tip: To master intro, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "deep",
+      "learning",
+      "intro"
+    ]
+  },
+  {
+    "id": "data_science_ai_nlp_basics_tip1",
+    "text": "Tip: To master basics, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "nlp",
+      "basics"
+    ]
+  },
+  {
+    "id": "data_science_ai_nlp_basics_tip2",
+    "text": "Tip: To master basics, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "nlp",
+      "basics"
+    ]
+  },
+  {
+    "id": "data_science_ai_time_series_tip1",
+    "text": "Tip: To master series, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "time",
+      "series"
+    ]
+  },
+  {
+    "id": "data_science_ai_time_series_tip2",
+    "text": "Tip: To master series, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "time",
+      "series"
+    ]
+  },
+  {
+    "id": "data_science_ai_model_deployment_tip1",
+    "text": "Tip: To master deployment, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "model",
+      "deployment"
+    ]
+  },
+  {
+    "id": "data_science_ai_model_deployment_tip2",
+    "text": "Tip: To master deployment, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "model",
+      "deployment"
+    ]
+  },
+  {
+    "id": "data_science_ai_explainable_ai_tip1",
+    "text": "Tip: To master ai, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "explainable",
+      "ai"
+    ]
+  },
+  {
+    "id": "data_science_ai_explainable_ai_tip2",
+    "text": "Tip: To master ai, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "explainable",
+      "ai"
+    ]
+  },
+  {
+    "id": "data_science_ai_data_ethics_tip1",
+    "text": "Tip: To master ethics, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "data",
+      "ethics"
+    ]
+  },
+  {
+    "id": "data_science_ai_data_ethics_tip2",
+    "text": "Tip: To master ethics, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "data",
+      "ethics"
+    ]
+  },
+  {
+    "id": "data_science_ai_automl_tip1",
+    "text": "Tip: To master automl, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "automl"
+    ]
+  },
+  {
+    "id": "data_science_ai_automl_tip2",
+    "text": "Tip: To master automl, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "automl"
+    ]
+  },
+  {
+    "id": "data_science_ai_reinforcement_learning_tip1",
+    "text": "Tip: To master learning, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "reinforcement",
+      "learning"
+    ]
+  },
+  {
+    "id": "data_science_ai_reinforcement_learning_tip2",
+    "text": "Tip: To master learning, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "data_science_ai",
+      "reinforcement",
+      "learning"
+    ]
+  },
+  {
+    "id": "cybersecurity_network_security_tip1",
+    "text": "Tip: To master security, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "cybersecurity",
+      "network",
+      "security"
+    ]
+  },
+  {
+    "id": "cybersecurity_network_security_tip2",
+    "text": "Tip: To master security, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "cybersecurity",
+      "network",
+      "security"
+    ]
+  },
+  {
+    "id": "cybersecurity_web_app_security_tip1",
+    "text": "Tip: To master security, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "cybersecurity",
+      "web",
+      "app",
+      "security"
+    ]
+  },
+  {
+    "id": "cybersecurity_web_app_security_tip2",
+    "text": "Tip: To master security, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "cybersecurity",
+      "web",
+      "app",
+      "security"
+    ]
+  },
+  {
+    "id": "cybersecurity_cryptography_basics_tip1",
+    "text": "Tip: To master basics, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "cybersecurity",
+      "cryptography",
+      "basics"
+    ]
+  },
+  {
+    "id": "cybersecurity_cryptography_basics_tip2",
+    "text": "Tip: To master basics, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "cybersecurity",
+      "cryptography",
+      "basics"
+    ]
+  },
+  {
+    "id": "cybersecurity_identity_access_tip1",
+    "text": "Tip: To master access, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "cybersecurity",
+      "identity",
+      "access"
+    ]
+  },
+  {
+    "id": "cybersecurity_identity_access_tip2",
+    "text": "Tip: To master access, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "cybersecurity",
+      "identity",
+      "access"
+    ]
+  },
+  {
+    "id": "cybersecurity_incident_response_tip1",
+    "text": "Tip: To master response, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "cybersecurity",
+      "incident",
+      "response"
+    ]
+  },
+  {
+    "id": "cybersecurity_incident_response_tip2",
+    "text": "Tip: To master response, practice regularly and seek feedback.",
+    "source_type": "tip",
+    "tags": [
+      "cybersecurity",
+      "incident",
+      "response"
+    ]
+  }
+]

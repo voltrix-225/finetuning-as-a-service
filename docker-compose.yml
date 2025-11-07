@@ -26,7 +26,8 @@ services:
       BROKER_URL: amqp://guest:guest@rabbitmq:5672//
       DATA_DIR: /data/uploads
       MODEL_DIR: /data/models
-      MODEL_CACHE_DIR: /data/model_cache
+      MODEL_CACHE_DIR: /data/model_cache\
+      HF_TOKEN: ${HF_TOKEN}
     volumes:
       - ./backend/app:/app/app
       - ./data/uploads:/data/uploads
@@ -40,7 +41,7 @@ services:
 
   worker:
     build:
-      context: .
+      context: ./backend
       dockerfile: ./worker/Dockerfile
     runtime: nvidia
     env_file:
@@ -53,6 +54,7 @@ services:
       DATA_DIR: /data/uploads
       MODEL_DIR: /data/models
       MODEL_CACHE_DIR: /data/model_cache
+      HF_TOKEN: ${HF_TOKEN}
     volumes:
       - ./backend/app:/app/app
       - ./data/uploads:/data/uploads
@@ -63,6 +65,19 @@ services:
     depends_on:
       - postgres
       - rabbitmq
+      
+  frontend:
+    container_name: ftaas-frontend
+    image: nginx:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html:ro
+    depends_on:
+      - backend
+    networks:
+      - default
+
 
 volumes:
   pgdata:

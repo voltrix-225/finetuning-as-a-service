@@ -1,6 +1,6 @@
 # backend/app/main.py
 import os
-from fastapi import FastAPI, UploadFile, File, Form, Depends, HTTPException, status
+from fastapi import FastAPI, UploadFile, File, Form, Depends, HTTPException, status, APIRouter
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
@@ -11,7 +11,7 @@ from .lora_infer import generate_text
 from .download import router as download_router
 from .predict import router as predict_router
 from .tasks import enqueue_training_job
-from routes import trained_models
+from .routes import trained_models
 from .models import Dataset, Job
 from .config import settings
 from .db import get_db, Base, engine, SessionLocal
@@ -49,7 +49,7 @@ def get_models():
     return {"models": AVAILABLE_MODELS}
 
 
-@app.post("/api/datasets/upload", response_model=schemas.DatasetOut)
+@app.post("/datasets/upload", response_model=schemas.DatasetOut)
 async def upload_dataset(
     name: str = Form(...),
     file: UploadFile = File(...),
@@ -121,7 +121,20 @@ def create_job(
     # enqueue background training task
     enqueue_training_job.delay(job.id)
 
-    return {"job_id": job.id, "status": job.status}
+    return {"job_id": job.id, "status": job.status}\
+    
+@app.get("/jobs")
+def list_jobs(db: Session = Depends(get_db)):
+    jobs = db.query(models.Job).order_by(models.Job.id.desc()).all()
+    return [
+        {
+            "id": j.id,
+            "base_model": j.base_model,
+            "status": j.status,
+            "adapter_path": j.adapter_path
+        }
+        for j in jobs
+    ]
 
 @app.get("/jobs/{job_id}", response_model=schemas.JobOut)
 def get_job(job_id: int, db: Session = Depends(get_db)):
