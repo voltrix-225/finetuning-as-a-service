@@ -60,6 +60,7 @@
       <h2>Training Jobs</h2>
       <div id="jobsList"></div>
 
+
     </section>
     <!-- INFERENCE UI -->
     <section id="infer" class="tab-content">
@@ -165,16 +166,17 @@
       } catch (err) {
         console.warn(" Failed to load models:", err);
         select.innerHTML = `
-      <option value="sshleifer/tiny-gpt2">Tiny GPT-2</option>
-      <option value="distilgpt2">DistilGPT-2</option>
-      <option value="gpt2">GPT-2 Base</option>
-      <option value="gpt2-medium">GPT-2 Medium</option>
-      <option value="meta-llama/Llama-3.2-1B">LLaMA-3.2 1B</option>
-      <option value="meta-llama/Llama-3.1-7B">LLaMA-3.1 7B</option>
-      <option value="mistralai/Mistral-7B-v0.1">Mistral 7B</option>
-      <option value="Qwen/Qwen2.5-7B">Qwen 2.5 7B</option>
-      <option value="google/gemma-2b">Gemma 2B</option> 
-    `;
+  <option value="sshleifer/tiny-gpt2">Tiny GPT-2</option>
+  <option value="distilgpt2"></option>
+  <option value="gpt2">GPT-2 Base (124M)</option>
+  <option value="gpt2-medium">GPT-2 Medium (345M)</option>
+  <option value="microsoft/phi-1_5">Phi 1.5</option>
+  <option value="microsoft/phi-2">Phi 2 </option>
+  <option value="Qwen/Qwen2.5-0.5B">Qwen 2.5 </option>
+  <option value="Qwen/Qwen2-1.5B">Qwen 2 </option>
+  <option value="Qwen/Qwen2.5-7B">Qwen 2.5 7B</option>
+  <option value="tiiuae/falcon-1b">Falcon 1B</option>
+  <option value="mistralai/Mistral-7B-v0.1">Mistral 7B</option>`;
       }
     }
 
@@ -215,7 +217,7 @@
 
     /* ========== Load Jobs (Jobs Tab) ========== */
     async function loadJobs() {
-      console.log("Loading jobs...");
+      //console.log("Loading jobs...");
 
       // Find container safely
       const container = document.getElementById("jobsList");

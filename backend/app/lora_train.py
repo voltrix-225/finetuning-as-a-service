@@ -30,16 +30,38 @@ def read_text_file(path):
 def get_lora_target_modules(model_name):
     name = model_name.lower()
 
-    if "gpt2" in name:
+    # GPT-2 family
+    if "gpt2" in name and "distil" not in name:
         return ["c_attn", "c_proj"]
-    elif "llama" in name or "llemur" in name:
+
+    # DistilGPT2
+    if "distilgpt2" in name:
+        return ["c_attn", "c_proj"]
+
+    # GPT-Neo family
+    if "gpt-neo" in name:
+        return ["attention.query_key_value"]
+
+    # Pythia family
+    if "pythia" in name:
+        return ["q_proj", "k_proj", "v_proj"]
+
+    # Phi-1.5 / Phi-2
+    if "phi" in name:
         return ["q_proj", "k_proj", "v_proj", "o_proj"]
-    elif "mistral" in name:
+
+    # Qwen small models (GPT-like)
+    if "qwen" in name:
+        return ["c_attn", "c_proj"]
+
+    # Falcon 1B
+    if "falcon" in name:
+        return ["query_key_value"]
+
+    # LLaMA / Mistral / Gemma
+    if "llama" in name or "mistral" in name or "gemma" in name:
         return ["q_proj", "k_proj", "v_proj", "o_proj"]
-    elif "qwen" in name:
-        return ["c_attn", "c_proj"]  # Qwen2 uses GPT-like architecture
-    elif "gemma" in name:
-        return ["q_proj", "k_proj", "v_proj", "o_proj"]
+    
     else:
         return ["q_proj", "v_proj"]  # fallback-safe
 
