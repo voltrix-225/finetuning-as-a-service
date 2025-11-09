@@ -154,12 +154,18 @@ def download_adapter(job_id: int, db: Session = Depends(get_db)):
         raise HTTPException(404, "File missing")
 
     return FileResponse(path, filename=f"adapter_job_{job_id}.zip")
-
 @app.post("/infer")
 def infer(
     base_model: str = Form(...),
     adapter_job_id: int = Form(...),
     prompt: str = Form(...)
 ):
-    output = generate_text(base_model, adapter_job_id, prompt)
-    return {"response": output}
+    try:
+        output = generate_text(base_model, adapter_job_id, prompt)
+        return {"response": output}
+
+    except Exception as e:
+        import traceback
+        print("[ERR] Inference failed:")
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=str(e))

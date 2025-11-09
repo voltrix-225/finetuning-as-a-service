@@ -19,9 +19,12 @@ services:
   backend:
     build:
       context: ./backend
+    runtime: nvidia
     env_file:
       - ./backend/.env
     environment:
+      NVIDIA_VISIBLE_DEVICES: all
+      NVIDIA_DRIVER_CAPABILITIES: compute,utility
       DATABASE_URL: postgresql+psycopg2://postgres:postgres@postgres:5432/ftaas
       BROKER_URL: amqp://guest:guest@rabbitmq:5672//
       DATA_DIR: /data/uploads
@@ -41,7 +44,7 @@ services:
 
   worker:
     build:
-      context: ./backend
+      context: .
       dockerfile: ./worker/Dockerfile
     runtime: nvidia
     env_file:
